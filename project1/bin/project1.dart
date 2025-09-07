@@ -28,4 +28,24 @@ void main(List<String> arguments) {
   //   stdout.writeln("Jenis kelamin saya Laki-laki");
   // }
   stdout.writeln("Alamat saya $alamat");
+  num nilai = 90.5;
+  stdout.writeln("Nilai saya $nilai");
+  dynamic bebas = "16";
+  stdout.writeln("Nilai dari dynamic adalah $bebas");
+  // String angka1 = "15" ;
+  // int angka2 = int.parse(angka1);
+  // int angka3 = bebas;
+  // list
+  List<String>hobby = ["Bernyanyi", "Bermain" , "Belajar"];
+  hobby.add ("Shopping");
+  stdout.writeln("Hobby saya adalah $hobby");
+  Map<String, String> data = {
+  "nama": "Mei" ,
+  "alamat" : "Malang",
+  "jenis_kelamin": "Perempuan",
+  };
+  data ['"pekerjaan"'] = "Mahasiswa" ;
+  data.addAll ({"hobi": "Membaca"});
+  stdout.writeln ("Data : $data");
+  stdout.writeln("Nama yg ada di data ${data[ 'nama']}");
 }
